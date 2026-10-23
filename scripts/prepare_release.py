@@ -118,7 +118,7 @@ BPS SHA256: {manifest['patch_sha256']}
 릴리스: {WEB}/releases/tag/{TAG}
 원본 ROM과 완성 ROM은 배포 파일에 포함하지 않습니다. 게임의 권리는 원 권리자에게 있습니다.
 '''
-    write(dist / '사용설명.txt', guide)
+    write(dist / 'USAGE-KO.txt', guide)
     write(ROOT / 'docs/ROM-HASHES.txt', rom_hashes)
     editor_guide = '''묵시록 외전 한국어 텍스트 도구 · V0.6
 
@@ -161,7 +161,7 @@ Cornell_Korean_Editor.exe를 실행합니다. 별도 Python 설치는 필요 없
                              ('validation.json', (ROOT / 'docs/validation.json').read_bytes()),
                              ('title.png', (ROOT / 'data/title.png').read_bytes())])
     shutil.copy2(ROOT / 'docs/validation.json', dist / 'validation.json')
-    names = [EXE, WINDOWS, PATCH, EDITOR, SCREENS, 'ROM-HASHES.txt', 'validation.json', '사용설명.txt']
+    names = [EXE, WINDOWS, PATCH, EDITOR, SCREENS, 'ROM-HASHES.txt', 'validation.json', 'USAGE-KO.txt']
     write(dist / 'SHA256SUMS.txt', ''.join(f'{sha(dist / name)}  {name}\n' for name in names))
     jsonwrite(ROOT / 'docs/release-files.json', {name: dict(bytes=(dist/name).stat().st_size, sha256=sha(dist/name)) for name in names})
     readme = f'''<p align="center"><img src="docs/screenshots/01-title.png" width="640" height="480" alt="악마성 드라큘라 묵시록 외전 한국어 타이틀 화면"></p>
