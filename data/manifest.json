@@ -1,0 +1,12 @@
+{
+  "version": "0.6",
+  "release_tag": "V0.6",
+  "patch_file": "Legend-of-Cornell-Korean-V0.6.bps",
+  "patch_sha256": "67956baa0c0f88b80f5e32842542df8762b010aa74618555768e4d9414ab8083",
+  "source_sha1": "50439acb5784bea3a4bbba5188c2aeaa1442099d",
+  "source_sha256": "51a0443883f3f94b20b6fb9a8688631c51bc7feafb143c51e48dc7198adfd1ca",
+  "source_provided_sha256": "c90e4e11e90a8688d655f59a3ad069814cfa24c2b55e5a959588b03dc4585a65",
+  "target_sha256": "55d8eece2108ed6dd3691f36d5e9572b9f60acb9aacc57f626df6ccd6d26b2db",
+  "source_bytes": 16777216,
+  "target_bytes": 33554432
+}

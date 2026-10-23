@@ -1,0 +1,1 @@
+Built-in image_gen. Text-localization of the original Japanese title. Exact Korean: 악마성 드라큘라 / 묵시록 외전. Keep transparent background, red beveled lettering and original demonic emblems. English LEGEND OF CORNELL and TM pixels restored from source ROM during tile packing.

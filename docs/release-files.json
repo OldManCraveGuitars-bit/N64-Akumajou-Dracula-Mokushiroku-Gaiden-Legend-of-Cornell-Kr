@@ -1,0 +1,34 @@
+{
+  "N64-Legend-of-Cornell-Kr-V0.6-Patcher.exe": {
+    "bytes": 12196349,
+    "sha256": "4f4622595ecadba5431466102d75107962af3ebe41888479c8cbc75caead449c"
+  },
+  "N64-Legend-of-Cornell-Kr-V0.6-Windows.zip": {
+    "bytes": 12508689,
+    "sha256": "62f93d41aca565cb9cc644d82463447dc7382f4444b1a10df4f27e12742910a6"
+  },
+  "Legend-of-Cornell-Korean-V0.6.bps": {
+    "bytes": 16801435,
+    "sha256": "67956baa0c0f88b80f5e32842542df8762b010aa74618555768e4d9414ab8083"
+  },
+  "Text-Tool-V0.6.zip": {
+    "bytes": 33635071,
+    "sha256": "a1f352b3fc46e1334b2be8cfdf1344b5124c877dc974564e00eda6f21c816247"
+  },
+  "Screenshots-V0.6.zip": {
+    "bytes": 716762,
+    "sha256": "1fa83122fa2cd7d89fc2397792388e9370260aa25333829338514988f490c415"
+  },
+  "ROM-HASHES.txt": {
+    "bytes": 907,
+    "sha256": "5c2f53cedf38313f27157cf5d82fb125d2b08abd43282e6019a27cea99b46511"
+  },
+  "validation.json": {
+    "bytes": 10626,
+    "sha256": "e1f35b71a2b87328c2582c0edfc6644f3890957a013443d97aff8388e260cb53"
+  },
+  "사용설명.txt": {
+    "bytes": 2694,
+    "sha256": "209f87f76ad7bc088b969df84e762a357ab52edb5137620f178b94e9e715b267"
+  }
+}
