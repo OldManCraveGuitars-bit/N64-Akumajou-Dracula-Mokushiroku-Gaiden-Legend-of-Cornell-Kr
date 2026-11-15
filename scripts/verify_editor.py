@@ -19,7 +19,7 @@ def main():
     original_hash = hashlib.sha256(args.original.read_bytes()).hexdigest()
     with tempfile.TemporaryDirectory(prefix='cornell-portable-') as temporary:
         folder = Path(temporary)
-        with zipfile.ZipFile(ROOT / 'dist/Text-Tool-V0.6.zip') as z:
+        with zipfile.ZipFile(ROOT / 'dist/Text-Tool-V0.6.1.zip') as z:
             assert z.testzip() is None
             assert not any('/work/' in n or n.lower().endswith(('.z64', '.n64', '.v64', '.dll', '.srm')) for n in z.namelist())
             z.extractall(folder)
@@ -40,7 +40,8 @@ def main():
     result = dict(success=True, freshly_extracted_archive_verified=True, archive_contains_no_rom_or_work=True,
                   standalone_editor_gui_verified=True, translated_rows=1665,
                   standalone_editor_rebuilt_same_target=True, target_sha256=TARGET_SHA256,
-                  original_preserved=True)
+                  original_preserved=True,
+                  editor_archive_sha256=hashlib.sha256((ROOT / 'dist/Text-Tool-V0.6.1.zip').read_bytes()).hexdigest())
     (ROOT / 'dist/editor-verification.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(result, indent=2))
 

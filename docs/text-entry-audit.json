@@ -1,0 +1,34 @@
+{
+  "all_scanned_reference_hits": 72,
+  "mid_span_entries": [
+    {
+      "surface": "rom",
+      "id": "rom:0BB406",
+      "old": "800BA808",
+      "entry_word": 1,
+      "alignment_padding_only": true,
+      "maps_to_first_target_word": true,
+      "valid": true
+    },
+    {
+      "surface": "asset_423",
+      "id": "asset_423:00383E",
+      "old": "0E003840",
+      "entry_word": 1,
+      "alignment_padding_only": true,
+      "maps_to_first_target_word": true,
+      "valid": true
+    },
+    {
+      "surface": "asset_444",
+      "id": "asset_444:00134A",
+      "old": "0E00134C",
+      "entry_word": 1,
+      "alignment_padding_only": true,
+      "maps_to_first_target_word": true,
+      "valid": true
+    }
+  ],
+  "unresolved": [],
+  "all_valid": true
+}

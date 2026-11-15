@@ -54,7 +54,15 @@ def rebuild_block(b,project,glyphs,partial=False):
             target=project.target(s)
             if not target and not partial:raise ValueError(('Untranslated',s['id']))
             data=encode(target,glyphs) if target else struct.pack('>'+str(len(s['words']))+'H',*s['words'])
-            for j in range(len(s['words'])):offset_map[i*2+j*2]=len(out)+min(j*2,max(0,len(data)-2))
+            # Some strings begin with an unused zero word for 32-bit alignment.
+            # Native callers point AFTER that word (e.g. saving: 800BA808).
+            # Translations omit it; preserving its numeric index skipped the
+            # first Korean glyph. Map the real text entry to the translation's
+            # start, including for the intro prophecy and Henry-help title.
+            padding=0
+            while target and padding<len(s['words']) and s['words'][padding]==0:padding+=1
+            for j in range(len(s['words'])):
+                offset_map[i*2+j*2]=len(out)+min(max(0,j-padding)*2,max(0,len(data)-2))
             out.extend(data);i+=len(s['words'])
         else:offset_map[i*2]=len(out);out.extend(struct.pack('>H',words[i]));i+=1
     controls=lambda ws:[w for w in ws if w>=0xA000 and w not in (0xB600,0xB700)]

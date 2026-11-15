@@ -1,15 +1,71 @@
 {
-  "version": "V0.6",
-  "patch": "Legend-of-Cornell-Korean-V0.6.bps",
-  "original_file_preserved": true,
-  "original_sha256": "c90e4e11e90a8688d655f59a3ad069814cfa24c2b55e5a959588b03dc4585a65",
-  "target_sha256": "55d8eece2108ed6dd3691f36d5e9572b9f60acb9aacc57f626df6ccd6d26b2db",
-  "patch_sha256": "67956baa0c0f88b80f5e32842542df8762b010aa74618555768e4d9414ab8083",
-  "patch_bytes": 16801435,
-  "bps_roundtrip_all_three_byte_orders": true,
-  "deterministic_build": true,
+  "version": "V0.6.1",
+  "review_date": "2026-11-15",
+  "target_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
+  "source_sha1": "50439acb5784bea3a4bbba5188c2aeaa1442099d",
+  "source_normalized_sha256": "51a0443883f3f94b20b6fb9a8688631c51bc7feafb143c51e48dc7198adfd1ca",
+  "source_provided_sha256": "c90e4e11e90a8688d655f59a3ad069814cfa24c2b55e5a959588b03dc4585a65",
+  "patch_sha256": "5534424737d1787296b8e7e377a1681147890c89b2a8c49f7de7932752a48054",
+  "translation": {
+    "total": 1665,
+    "translated": 1665,
+    "pending": 0,
+    "hangul_syllables": 731
+  },
+  "proofreading": {
+    "reviewed_segments": 1665,
+    "unique_sources": 1410,
+    "source_target_pairs": 1420,
+    "corrected_segments": 65
+  },
+  "native_text_entry_fixes": {
+    "all_scanned_reference_hits": 72,
+    "mid_span_entries": [
+      {
+        "surface": "rom",
+        "id": "rom:0BB406",
+        "old": "800BA808",
+        "entry_word": 1,
+        "alignment_padding_only": true,
+        "maps_to_first_target_word": true,
+        "valid": true
+      },
+      {
+        "surface": "asset_423",
+        "id": "asset_423:00383E",
+        "old": "0E003840",
+        "entry_word": 1,
+        "alignment_padding_only": true,
+        "maps_to_first_target_word": true,
+        "valid": true
+      },
+      {
+        "surface": "asset_444",
+        "id": "asset_444:00134A",
+        "old": "0E00134C",
+        "entry_word": 1,
+        "alignment_padding_only": true,
+        "maps_to_first_target_word": true,
+        "valid": true
+      }
+    ],
+    "unresolved": [],
+    "all_valid": true
+  },
+  "ui_width_limits": {
+    "dialogue": 240,
+    "shop_description": 208,
+    "inventory_description": 208,
+    "shop_ownership": 128
+  },
+  "spaces": {
+    "codepoint": "U+0020",
+    "pixels": 8,
+    "fullwidth_or_other_whitespace": []
+  },
+  "hangul_cell_pixels": 16,
   "build_audit": {
-    "sha256": "55d8eece2108ed6dd3691f36d5e9572b9f60acb9aacc57f626df6ccd6d26b2db",
+    "sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
     "size": 33554432,
     "cic": 6102,
     "translation": {
@@ -39,352 +95,453 @@
     "original_compressed_payload_region_preserved": true,
     "space_width_pixels": 8
   },
-  "proofreading": {
-    "reviewed_segments": 1665,
-    "unique_sources": 1410,
-    "corrected_segments": 126,
-    "corrected_unique_sources": 116
-  },
   "runtime": [
     {
-      "folder": "proofread-final-basis",
+      "name": "review2-final-basis",
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 3900,
+      "requested": 3900,
       "fault": 0,
       "map": 0,
-      "character": 0,
-      "gamestate": 3
+      "character": 0
     },
     {
-      "folder": "proofread-final-save",
-      "frames": 2400,
-      "fault": 0,
-      "map": 0,
-      "character": 0,
-      "gamestate": 3
-    },
-    {
-      "folder": "proofread-final-load",
-      "frames": 3600,
-      "fault": 0,
-      "map": 0,
-      "character": 0,
-      "gamestate": 3
-    },
-    {
-      "folder": "proofread-final-henry",
-      "frames": 900,
-      "fault": 0,
-      "map": 3,
-      "character": 3,
-      "gamestate": 3
-    },
-    {
-      "folder": "proofread-final-carrie",
-      "frames": 900,
-      "fault": 0,
-      "map": 5,
-      "character": 1,
-      "gamestate": 3
-    },
-    {
-      "folder": "proofread-final-inventory",
-      "frames": 300,
-      "fault": 0,
-      "map": 5,
-      "character": 1,
-      "gamestate": 3
-    }
-  ],
-  "map_loading": [
-    {
-      "folder": "proofread-map-batch/map-00",
+      "name": "review2-final-map-00",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 0,
-      "character": 0,
-      "gamestate": 3
+      "character": 0
     },
     {
-      "folder": "proofread-map-batch/map-01",
+      "name": "review2-final-map-01",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 1,
-      "character": 0,
-      "gamestate": 3
+      "character": 0
     },
     {
-      "folder": "proofread-map-batch/map-02",
+      "name": "review2-final-map-02",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 2,
-      "character": 0,
-      "gamestate": 3
+      "character": 0
     },
     {
-      "folder": "proofread-map-batch/map-03",
+      "name": "review2-final-map-03",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 3,
-      "character": 0,
-      "gamestate": 3
+      "character": 0
     },
     {
-      "folder": "proofread-map-batch/map-04",
+      "name": "review2-final-map-04",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 4,
-      "character": 0,
-      "gamestate": 3
+      "character": 0
     },
     {
-      "folder": "proofread-map-batch/map-05",
+      "name": "review2-final-map-05",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 5,
-      "character": 0,
-      "gamestate": 3
+      "character": 0
     },
     {
-      "folder": "proofread-map-batch/map-06",
+      "name": "review2-final-map-06",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 6,
-      "character": 0,
-      "gamestate": 3
+      "character": 0
     },
     {
-      "folder": "proofread-map-batch/map-07",
+      "name": "review2-final-map-07",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 7,
-      "character": 0,
-      "gamestate": 3
+      "character": 0
     },
     {
-      "folder": "proofread-map-batch/map-08",
+      "name": "review2-final-map-08",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 8,
-      "character": 0,
-      "gamestate": 3
+      "character": 0
     },
     {
-      "folder": "proofread-map-batch/map-09",
+      "name": "review2-final-map-09",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 9,
-      "character": 1,
-      "gamestate": 3
+      "character": 1
     },
     {
-      "folder": "proofread-map-batch/map-10",
+      "name": "review2-final-map-10",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 10,
-      "character": 1,
-      "gamestate": 3
+      "character": 1
     },
     {
-      "folder": "proofread-map-batch/map-11",
+      "name": "review2-final-map-11",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 11,
-      "character": 1,
-      "gamestate": 3
+      "character": 1
     },
     {
-      "folder": "proofread-map-batch/map-12",
+      "name": "review2-final-map-12",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 12,
-      "character": 1,
-      "gamestate": 3
+      "character": 1
     },
     {
-      "folder": "proofread-map-batch/map-13",
+      "name": "review2-final-map-13",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 13,
-      "character": 0,
-      "gamestate": 3
+      "character": 0
     },
     {
-      "folder": "proofread-map-batch/map-14",
+      "name": "review2-final-map-14",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 14,
-      "character": 1,
-      "gamestate": 3
+      "character": 1
     },
     {
-      "folder": "proofread-map-batch/map-15",
+      "name": "review2-final-map-15",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 15,
-      "character": 1,
-      "gamestate": 3
+      "character": 1
     },
     {
-      "folder": "proofread-map-batch/map-16",
+      "name": "review2-final-map-16",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 16,
-      "character": 2,
-      "gamestate": 3
+      "character": 2
     },
     {
-      "folder": "proofread-map-batch/map-17",
+      "name": "review2-final-map-17",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 17,
-      "character": 2,
-      "gamestate": 3
+      "character": 2
     },
     {
-      "folder": "proofread-map-batch/map-18",
+      "name": "review2-final-map-18",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 18,
-      "character": 2,
-      "gamestate": 3
+      "character": 2
     },
     {
-      "folder": "proofread-map-batch/map-19",
+      "name": "review2-final-map-19",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 19,
-      "character": 2,
-      "gamestate": 3
+      "character": 2
     },
     {
-      "folder": "proofread-map-batch/map-23",
+      "name": "review2-final-map-23",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 23,
-      "character": 2,
-      "gamestate": 3
+      "character": 2
     },
     {
-      "folder": "proofread-map-batch/map-26",
+      "name": "review2-final-map-26",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 26,
-      "character": 2,
-      "gamestate": 3
+      "character": 2
     },
     {
-      "folder": "proofread-map-batch/map-30",
+      "name": "review2-final-map-30",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 30,
-      "character": 2,
-      "gamestate": 3
+      "character": 2
     },
     {
-      "folder": "proofread-map-batch/map-33",
+      "name": "review2-final-map-33",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 33,
-      "character": 2,
-      "gamestate": 3
+      "character": 2
     },
     {
-      "folder": "proofread-map-batch/map-34",
+      "name": "review2-final-map-34",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 34,
-      "character": 2,
-      "gamestate": 3
+      "character": 2
     },
     {
-      "folder": "proofread-map-batch/map-35",
+      "name": "review2-final-map-35",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 35,
-      "character": 2,
-      "gamestate": 3
+      "character": 2
     },
     {
-      "folder": "proofread-map-batch/map-36",
+      "name": "review2-final-map-36",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 36,
-      "character": 2,
-      "gamestate": 3
+      "character": 2
     },
     {
-      "folder": "proofread-map-batch/map-37",
+      "name": "review2-final-map-37",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 37,
-      "character": 2,
-      "gamestate": 3
+      "character": 2
     },
     {
-      "folder": "proofread-map-batch/map-40",
+      "name": "review2-final-map-40",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 40,
-      "character": 2,
-      "gamestate": 3
+      "character": 2
     },
     {
-      "folder": "proofread-map-batch/map-41",
+      "name": "review2-final-map-41",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 41,
-      "character": 2,
-      "gamestate": 3
+      "character": 2
     },
     {
-      "folder": "proofread-map-batch/map-42",
+      "name": "review2-final-map-42",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
       "frames": 720,
+      "requested": 720,
       "fault": 0,
       "map": 42,
-      "character": 2,
-      "gamestate": 3
+      "character": 2
+    },
+    {
+      "name": "review2-final-henry",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
+      "frames": 720,
+      "requested": 720,
+      "fault": 0,
+      "map": 3,
+      "character": 3
+    },
+    {
+      "name": "review2-final-shop",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
+      "frames": 1200,
+      "requested": 1200,
+      "fault": 0,
+      "map": 0,
+      "character": 0
+    },
+    {
+      "name": "review2-final-options",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
+      "frames": 600,
+      "requested": 600,
+      "fault": 0,
+      "map": 0,
+      "character": 0
+    },
+    {
+      "name": "review2-final-pause",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
+      "frames": 600,
+      "requested": 600,
+      "fault": 0,
+      "map": 0,
+      "character": 0
+    },
+    {
+      "name": "review2-final-shop-owned",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
+      "frames": 1200,
+      "requested": 1200,
+      "fault": 0,
+      "map": 0,
+      "character": 0
+    },
+    {
+      "name": "review2-final-save",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
+      "frames": 480,
+      "requested": 480,
+      "fault": 0,
+      "map": 0,
+      "character": 0
+    },
+    {
+      "name": "review2-final-text-prophecy-entry",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
+      "frames": 450,
+      "requested": 450,
+      "fault": 0,
+      "map": 0,
+      "character": 0
+    },
+    {
+      "name": "review2-final-text-blue-eyes",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
+      "frames": 450,
+      "requested": 450,
+      "fault": 0,
+      "map": 0,
+      "character": 0
+    },
+    {
+      "name": "review2-final-text-henry-entry",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
+      "frames": 450,
+      "requested": 450,
+      "fault": 0,
+      "map": 0,
+      "character": 0
+    },
+    {
+      "name": "review2-final-text-fountain",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
+      "frames": 450,
+      "requested": 450,
+      "fault": 0,
+      "map": 0,
+      "character": 0
+    },
+    {
+      "name": "review2-final-text-controller-error",
+      "exit_code": 0,
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
+      "frames": 450,
+      "requested": 450,
+      "fault": 0,
+      "map": 0,
+      "character": 0
+    },
+    {
+      "name": "review2-final-fresh-load",
+      "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
+      "frames": 3900,
+      "requested": 3900,
+      "fault": 0,
+      "map": 0,
+      "character": 0
     }
   ],
-  "text_engine_previews": [
-    {
-      "folder": "proofread-final-text-malus",
-      "frames": 700,
-      "fault": 0,
-      "map": 0,
-      "character": 0,
-      "gamestate": 3
-    },
-    {
-      "folder": "proofread-final-text-ortega",
-      "frames": 700,
-      "fault": 0,
-      "map": 0,
-      "character": 0,
-      "gamestate": 3
-    },
-    {
-      "folder": "proofread-final-text-henry-view",
-      "frames": 700,
-      "fault": 0,
-      "map": 0,
-      "character": 0,
-      "gamestate": 3
-    },
-    {
-      "folder": "proofread-final-text-dracula",
-      "frames": 700,
-      "fault": 0,
-      "map": 0,
-      "character": 0,
-      "gamestate": 3
-    }
-  ],
-  "portable_editor_ui_and_build_verified": true,
-  "local_editor_ui_and_build_verified": true,
-  "all_four_characters_loaded": true,
-  "all_31_translated_maps_loaded": true,
+  "runtime_check_count": 44,
   "native_save_and_fresh_boot_load_verified": true,
-  "runtime_note": "Map, character and native MFDS text-window preview requests used QA-only emulator RAM. Text previews are renderer tests, not natural scene progression. Full branch-by-branch playthrough was not performed.",
-  "original_source_file_unchanged": true,
-  "content_basis": "검수를 마친 로컬 v1.1 번역과 동일한 ROM 내용. 공개 배포 버전은 V0.6."
+  "all_31_translated_maps_loaded": true,
+  "all_four_characters_loaded": true,
+  "original_preserved": true,
+  "limitations": [
+    "모든 캐릭터의 모든 플레이 분기를 처음부터 끝까지 조작해 완주한 검증은 아닙니다.",
+    "지역·메뉴 요청과 대사 출력 시험에는 QA용 에뮬레이터 RAM을 사용했습니다. 대사 미리보기는 자연스러운 컷신 진행 장면이 아닙니다."
+  ]
 }

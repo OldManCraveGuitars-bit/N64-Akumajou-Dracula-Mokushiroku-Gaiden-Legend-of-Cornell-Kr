@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01-title.png",
+    "caption": "한국어 타이틀",
+    "sha256": "8d0fcb04cedae7f831f8c2abbb39b9e1ae55858aaa17060356445a8a0c029126",
+    "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4"
+  },
+  {
+    "file": "02-saving.png",
+    "caption": "저장 중입니다. 첫 글자 정상 표시",
+    "sha256": "3113fce6f7532a54c61d55013b203398c19406da3cf22bcc8fccb8385dc3a28f",
+    "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4"
+  },
+  {
+    "file": "03-save-complete.png",
+    "caption": "게임 내부 저장 완료",
+    "sha256": "fa3724cd54f196a27a7998e212bff46bb3dca30c4d1225ee616569e85ddeca33",
+    "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4"
+  },
+  {
+    "file": "04-fresh-load.png",
+    "caption": "새 부팅 후 게임 내부 저장 불러오기",
+    "sha256": "062747ea776b4b9c8694fe21154a3b15092ca32cbc2093b42d10d948028f6d69",
+    "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4"
+  },
+  {
+    "file": "05-inventory.png",
+    "caption": "일시정지 메뉴",
+    "sha256": "0d9563565d374e30e96de07bccacdeaa5e2583d1d9038d799e84acb04905c850",
+    "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4"
+  },
+  {
+    "file": "06-shop-zero.png",
+    "caption": "보유 수량 0개와 소지금 칸의 분리",
+    "sha256": "4e93955fa7de6b8058e21b931b74e65bd0037f13b6866cd91dae48315490e7fe",
+    "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4"
+  },
+  {
+    "file": "07-shop-description.png",
+    "caption": "상점 아이템 설명 3행이 창 안에 표시됨",
+    "sha256": "962eb1dae8422cce31a620b2c4863f91540075532daca4d66f35ee4ca398a4bc",
+    "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4"
+  },
+  {
+    "file": "08-shop-owned.png",
+    "caption": "실제 구매 후 보유 개수와 잔액",
+    "sha256": "922daeb9cc482aa782f57210a35c6a17b793cfdb1cbf1a0ac719471ae9d42f67",
+    "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4"
+  },
+  {
+    "file": "09-prophecy-blue-eyes.png",
+    "caption": "푸른 눈 오역 수정 — MFDS 검수용 출력",
+    "sha256": "fe998a0a96449c6bf9e8e82a7a5ce0eb08e44582d30e9c06518b7cf743785b5e",
+    "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4"
+  },
+  {
+    "file": "10-henry-title.png",
+    "caption": "헨리 안내 제목 앞 글자 — MFDS 검수용 출력",
+    "sha256": "f9c772d89571228508e6eda3fe4563c5bae53f5832ad1c4621af6890c855a776",
+    "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4"
+  },
+  {
+    "file": "11-prophecy-title.png",
+    "caption": "예언 문구 앞 글자 — MFDS 검수용 출력",
+    "sha256": "de9cef0c3fd372f9ac96d7a3bee70cbcfd5fad87c25726cbc5668113aacf798a",
+    "rom_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4"
+  },
+  {
+    "file": "12-before-saving.png",
+    "caption": "수정 전 V0.6에서 직접 재현한 장 중입니다",
+    "sha256": "f0d030e494f47b59b1c92a77f478890d269d786911304e77de385ff54adbe48a",
+    "rom_sha256": "55d8eece2108ed6dd3691f36d5e9572b9f60acb9aacc57f626df6ccd6d26b2db"
+  }
+]

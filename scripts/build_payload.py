@@ -20,7 +20,7 @@ def main():
     assert hashlib.sha256(source).hexdigest() == SOURCE_SHA256
     assert hashlib.sha256(target).hexdigest() == TARGET_SHA256
     metadata = dict(game='Akumajou Dracula Mokushiroku Gaiden - Legend of Cornell (Japan)',
-                    version='V0.6', language='ko', target_sha256=TARGET_SHA256)
+                    version='V0.6.1', language='ko', target_sha256=TARGET_SHA256)
     patch = create(source, target, json.dumps(metadata, ensure_ascii=False).encode())
     manifest = json.loads((ROOT / 'data/manifest.json').read_text(encoding='utf-8'))
     assert hashlib.sha256(patch).hexdigest() == manifest['patch_sha256']

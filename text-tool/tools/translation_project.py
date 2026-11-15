@@ -52,6 +52,9 @@ class Project:
             if s['id'].startswith('rom:') and 0xBB18C<=int(s['id'].split(':')[1],16)<=0xBB402:limit=150
             if s['id'] in ('asset_327:003B74','asset_327:003B7C','asset_327:003BA8'):limit=100
             if s['id']=='asset_327:003B8C':limit=128
+            if s['id'].startswith('asset_327:') and 0x3BD4<=int(s['id'].split(':')[1],16)<0x4394:limit=208
+            if s['id'].startswith('asset_361:'):limit=208
+            if s['id'] in ('asset_361:002A5E','asset_361:002A70'):limit=128
             if any(line_width(line)>limit for line in t.split('\n')):errors.append((s['id'],f'게임 창의 {limit}픽셀 폭 초과'))
             # Latin runs inside Japanese prose are part of the user's English-preservation requirement.
             source_runs=Counter(re.findall(r'[A-Za-z0-9]*[A-Za-z][A-Za-z0-9]*',re.sub(r'<[0-9A-F]{4}>','',s['source'])))

@@ -7,11 +7,11 @@ from pathlib import Path
 from typing import Callable
 from bps import apply as apply_bps
 
-VERSION = '0.6'
+VERSION = '0.6.1'
 SOURCE_SHA1 = '50439acb5784bea3a4bbba5188c2aeaa1442099d'
 SOURCE_SHA256 = '51a0443883f3f94b20b6fb9a8688631c51bc7feafb143c51e48dc7198adfd1ca'
-TARGET_SHA256 = '55d8eece2108ed6dd3691f36d5e9572b9f60acb9aacc57f626df6ccd6d26b2db'
-OUTPUT_NAME = 'Legend of Cornell (Japan) (Korean V0.6).z64'
+TARGET_SHA256 = '935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4'
+OUTPUT_NAME = 'Legend of Cornell (Japan) (Korean V0.6.1).z64'
 
 def sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
