@@ -1,11 +1,11 @@
 {
-  "version": "V0.6.1",
+  "version": "v0.65",
   "review_date": "2026-11-15",
   "target_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
   "source_sha1": "50439acb5784bea3a4bbba5188c2aeaa1442099d",
   "source_normalized_sha256": "51a0443883f3f94b20b6fb9a8688631c51bc7feafb143c51e48dc7198adfd1ca",
   "source_provided_sha256": "c90e4e11e90a8688d655f59a3ad069814cfa24c2b55e5a959588b03dc4585a65",
-  "patch_sha256": "5534424737d1787296b8e7e377a1681147890c89b2a8c49f7de7932752a48054",
+  "patch_sha256": "8b981bc2821d8b72c59f1af1eafff9c62c310bf26999940086071b1f2088a10d",
   "translation": {
     "total": 1665,
     "translated": 1665,

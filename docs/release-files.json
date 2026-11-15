@@ -1,34 +1,34 @@
 {
-  "N64-Legend-of-Cornell-Kr-V0.6.1-Patcher.exe": {
-    "bytes": 12195080,
-    "sha256": "4af422cd14c662e2543bb974f971d0e79cbad743487ea63ad6856a9b4d000a93"
+  "N64-Legend-of-Cornell-Kr-v0.65-Patcher.exe": {
+    "bytes": 12193763,
+    "sha256": "36b7d168950835b7c4fa1467160f283336d919647b5bac5e3909b5ede883030a"
   },
-  "N64-Legend-of-Cornell-Kr-V0.6.1-Windows.zip": {
-    "bytes": 12403617,
-    "sha256": "5039731516a54e0f8ebd5151216970a3cfe1ed64113e07780fb0558c59c24cd9"
+  "N64-Legend-of-Cornell-Kr-v0.65-Windows.zip": {
+    "bytes": 12402456,
+    "sha256": "ecc942a420c97108e186869472f5ea1ac6e76bf28f9a11758fb124c79da657ce"
   },
-  "Legend-of-Cornell-Korean-V0.6.1.bps": {
-    "bytes": 16801434,
-    "sha256": "5534424737d1787296b8e7e377a1681147890c89b2a8c49f7de7932752a48054"
+  "Legend-of-Cornell-Korean-v0.65.bps": {
+    "bytes": 16801433,
+    "sha256": "8b981bc2821d8b72c59f1af1eafff9c62c310bf26999940086071b1f2088a10d"
   },
-  "Text-Tool-V0.6.1.zip": {
+  "Text-Tool-v0.65.zip": {
     "bytes": 33771928,
-    "sha256": "4035155055f510383d2c42969bb1236bdb0f2fe5cd15a5c61576a65047548e15"
+    "sha256": "7e779643908fbf599523dbed6eab0a63f717e122309915a8b813444bca2762de"
   },
-  "Screenshots-V0.6.1.zip": {
-    "bytes": 830574,
-    "sha256": "a36df9d8a5ec2fc84e5be677045629f74cb6d4a26845d87a348364f6daa285f9"
+  "Screenshots-v0.65.zip": {
+    "bytes": 830573,
+    "sha256": "4b6a1260ec42b846e6d297e7b01a0b5d349cf03eff132c860deb56ff1b5c1462"
   },
   "ROM-HASHES.txt": {
-    "bytes": 816,
-    "sha256": "1d6d6a4ad37122a6699d71d9c72a3acc626fef52e45d0bdd060a814be8e5d4ea"
+    "bytes": 815,
+    "sha256": "723fb7deb2ee3501405197cb905bee70ef6cd81ef5f509224e5d149194d1be1b"
   },
   "validation.json": {
-    "bytes": 17068,
-    "sha256": "3f0c4e972468941db5b46ca3d95bb8e2b6817fa98d8041b3d25f0917561cd4f7"
+    "bytes": 17066,
+    "sha256": "5bad0d921bd2b2d4355382ff526d09792fc991f80084a5e28d427b84b59c13cc"
   },
   "USAGE-KO.txt": {
-    "bytes": 2738,
-    "sha256": "58452de1f5ec87a941cde3fbdfb506721e2fe28a8f9425c84a7f7a8104ef1878"
+    "bytes": 2734,
+    "sha256": "652816f8a70da6ec183c13be5ff44927bb02028128dee489bbd648e27d4a78a0"
   }
 }

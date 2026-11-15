@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
 from patcher_core import VERSION,SOURCE_SHA1,SOURCE_SHA256,TARGET_SHA256
-TAG='V'+VERSION
+TAG='v'+VERSION
 WEB='https://github.com/OldManCraveGuitars-bit/N64-Akumajou-Dracula-Mokushiroku-Gaiden-Legend-of-Cornell-Kr'
 BASE=WEB+'/releases/download/'+TAG+'/'
 EXE=f'N64-Legend-of-Cornell-Kr-{TAG}-Patcher.exe'
@@ -59,7 +59,7 @@ Windows x64에서 {EXE}를 실행합니다. Python 설치는 필요 없습니다
 입력은 16 MiB, 출력은 32 MiB입니다. 원본과 기존 출력 파일은 덮어쓰지 않습니다.
 일반 BPS 프로그램에는 big endian .z64 원본을 사용하세요.
 
-V0.6.1 수정
+v0.65 수정
 - '저장 중입니다'가 '장 중입니다'로 보이던 시작 주소 오류를 수정했습니다.
 - 예언 문구와 헨리 안내 제목의 같은 주소 오류도 수정했습니다.
 - 상점 보유 안내를 '보유 수량: 0개'로 바꾸고 설명문을 실제 창 폭 안에 배치했습니다.
@@ -125,7 +125,7 @@ Cornell_Korean_Editor.exe를 실행하고 첫 실행에서 일본판 원본을 �
 
 일본어 텍스트 **1,665구간**과 일본어 타이틀 로고를 한국어로 바꿨습니다. 영어 메뉴·영문 부제·영어 음성은 보존합니다. 띄어쓰기는 **반각 공백 U+0020, 8픽셀**이며 한글 글자는 16픽셀입니다.
 
-**V0.6.1은 전체 재검수와 UI 잘림 수정판입니다.** 전체 1,665구간(고유 원문 1,410개, 원문·번역 쌍 1,420개)을 다시 대조하고 65구간을 수정했습니다.
+**v0.65은 전체 재검수와 UI 잘림 수정판입니다.** 전체 1,665구간(고유 원문 1,410개, 원문·번역 쌍 1,420개)을 다시 대조하고 65구간을 수정했습니다.
 
 - 저장 진행 문구가 **'장 중입니다'**로 보이던 시작 주소 오류를 수정했습니다. 예언 문구와 헨리 안내 제목의 같은 오류도 고쳤습니다.
 - 상점 하단 안내를 **'보유 수량: 0개'**로 바꿔 소지금 칸과 겹치지 않게 했습니다. 구매 후 보유 개수도 확인했습니다.

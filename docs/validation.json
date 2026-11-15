@@ -1,11 +1,11 @@
 {
-  "version": "V0.6.1",
+  "version": "v0.65",
   "review_date": "2026-11-15",
   "target_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
   "source_sha1": "50439acb5784bea3a4bbba5188c2aeaa1442099d",
   "source_normalized_sha256": "51a0443883f3f94b20b6fb9a8688631c51bc7feafb143c51e48dc7198adfd1ca",
   "source_provided_sha256": "c90e4e11e90a8688d655f59a3ad069814cfa24c2b55e5a959588b03dc4585a65",
-  "patch_sha256": "5534424737d1787296b8e7e377a1681147890c89b2a8c49f7de7932752a48054",
+  "patch_sha256": "8b981bc2821d8b72c59f1af1eafff9c62c310bf26999940086071b1f2088a10d",
   "translation": {
     "total": 1665,
     "translated": 1665,
@@ -545,7 +545,7 @@
     "지역·메뉴 요청과 대사 출력 시험에는 QA용 에뮬레이터 RAM을 사용했습니다. 대사 미리보기는 자연스러운 컷신 진행 장면이 아닙니다."
   ],
   "patcher": {
-    "version": "0.6.1",
+    "version": "0.65",
     "all_passed": true,
     "checks": [
       {
@@ -583,7 +583,7 @@
     ],
     "source_original_preserved": true,
     "target_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
-    "executable_sha256": "4af422cd14c662e2543bb974f971d0e79cbad743487ea63ad6856a9b4d000a93",
+    "executable_sha256": "36b7d168950835b7c4fa1467160f283336d919647b5bac5e3909b5ede883030a",
     "frozen_executable_tested": true
   },
   "public_editor_source_rebuilt_same_target": true,
@@ -596,6 +596,6 @@
     "standalone_editor_rebuilt_same_target": true,
     "target_sha256": "935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4",
     "original_preserved": true,
-    "editor_archive_sha256": "4035155055f510383d2c42969bb1236bdb0f2fe5cd15a5c61576a65047548e15"
+    "editor_archive_sha256": "7e779643908fbf599523dbed6eab0a63f717e122309915a8b813444bca2762de"
   }
 }

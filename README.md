@@ -1,17 +1,17 @@
 <p align="center"><img src="docs/screenshots/01-title.png" width="640" height="480" alt="한글 타이틀 화면"></p>
 
-**악마성 드라큘라 묵시록 외전 · LEGEND OF CORNELL · N64 일본판 한국어 패치 V0.6.1**
+**악마성 드라큘라 묵시록 외전 · LEGEND OF CORNELL · N64 일본판 한국어 패치 v0.65**
 
 일본어 텍스트 **1,665구간**과 일본어 타이틀 로고를 한국어로 바꿨습니다. 영어 메뉴·영문 부제·영어 음성은 보존합니다. 띄어쓰기는 **반각 공백 U+0020, 8픽셀**이며 한글 글자는 16픽셀입니다.
 
-**V0.6.1은 전체 재검수와 UI 잘림 수정판입니다.** 전체 1,665구간(고유 원문 1,410개, 원문·번역 쌍 1,420개)을 다시 대조하고 65구간을 수정했습니다.
+**v0.65은 전체 재검수와 UI 잘림 수정판입니다.** 전체 1,665구간(고유 원문 1,410개, 원문·번역 쌍 1,420개)을 다시 대조하고 65구간을 수정했습니다.
 
 - 저장 진행 문구가 **'장 중입니다'**로 보이던 시작 주소 오류를 수정했습니다. 예언 문구와 헨리 안내 제목의 같은 오류도 고쳤습니다.
 - 상점 하단 안내를 **'보유 수량: 0개'**로 바꿔 소지금 칸과 겹치지 않게 했습니다. 구매 후 보유 개수도 확인했습니다.
 - 상점·아이템 설명을 실제 208px 폭 안에 재배치했습니다. 보유 안내는 128px, 일반 대사는 240px 제한을 검사합니다.
 - 원본 글자를 직접 확인해 **'붉은 눈' → '푸른 눈'** 등 오역을 바로잡고, 조사·버튼 이름·숫자·대기 명령 전후의 공백을 다듬었습니다.
 
-[**Windows EXE 패처 다운로드**](https://github.com/OldManCraveGuitars-bit/N64-Akumajou-Dracula-Mokushiroku-Gaiden-Legend-of-Cornell-Kr/releases/download/V0.6.1/N64-Legend-of-Cornell-Kr-V0.6.1-Patcher.exe) · [Windows ZIP](https://github.com/OldManCraveGuitars-bit/N64-Akumajou-Dracula-Mokushiroku-Gaiden-Legend-of-Cornell-Kr/releases/download/V0.6.1/N64-Legend-of-Cornell-Kr-V0.6.1-Windows.zip) · [BPS](https://github.com/OldManCraveGuitars-bit/N64-Akumajou-Dracula-Mokushiroku-Gaiden-Legend-of-Cornell-Kr/releases/download/V0.6.1/Legend-of-Cornell-Korean-V0.6.1.bps) · [텍스트 편집기](https://github.com/OldManCraveGuitars-bit/N64-Akumajou-Dracula-Mokushiroku-Gaiden-Legend-of-Cornell-Kr/releases/download/V0.6.1/Text-Tool-V0.6.1.zip) · [스크린샷](https://github.com/OldManCraveGuitars-bit/N64-Akumajou-Dracula-Mokushiroku-Gaiden-Legend-of-Cornell-Kr/releases/download/V0.6.1/Screenshots-V0.6.1.zip) · [SHA256 목록](https://github.com/OldManCraveGuitars-bit/N64-Akumajou-Dracula-Mokushiroku-Gaiden-Legend-of-Cornell-Kr/releases/download/V0.6.1/SHA256SUMS.txt)
+[**Windows EXE 패처 다운로드**](https://github.com/OldManCraveGuitars-bit/N64-Akumajou-Dracula-Mokushiroku-Gaiden-Legend-of-Cornell-Kr/releases/download/v0.65/N64-Legend-of-Cornell-Kr-v0.65-Patcher.exe) · [Windows ZIP](https://github.com/OldManCraveGuitars-bit/N64-Akumajou-Dracula-Mokushiroku-Gaiden-Legend-of-Cornell-Kr/releases/download/v0.65/N64-Legend-of-Cornell-Kr-v0.65-Windows.zip) · [BPS](https://github.com/OldManCraveGuitars-bit/N64-Akumajou-Dracula-Mokushiroku-Gaiden-Legend-of-Cornell-Kr/releases/download/v0.65/Legend-of-Cornell-Korean-v0.65.bps) · [텍스트 편집기](https://github.com/OldManCraveGuitars-bit/N64-Akumajou-Dracula-Mokushiroku-Gaiden-Legend-of-Cornell-Kr/releases/download/v0.65/Text-Tool-v0.65.zip) · [스크린샷](https://github.com/OldManCraveGuitars-bit/N64-Akumajou-Dracula-Mokushiroku-Gaiden-Legend-of-Cornell-Kr/releases/download/v0.65/Screenshots-v0.65.zip) · [SHA256 목록](https://github.com/OldManCraveGuitars-bit/N64-Akumajou-Dracula-Mokushiroku-Gaiden-Legend-of-Cornell-Kr/releases/download/v0.65/SHA256SUMS.txt)
 
 1. EXE를 실행하고 일본판 원본 롬을 선택합니다. Python 설치는 필요 없습니다.
 2. 새 출력 경로를 정한 뒤 **한글 패치 적용**을 누릅니다.
@@ -27,9 +27,9 @@
 | 원본 .z64 (big endian 정규화) | `51a0443883f3f94b20b6fb9a8688631c51bc7feafb143c51e48dc7198adfd1ca` |
 | 제공된 원본 (v64 순서, 확장자는 .n64) | `c90e4e11e90a8688d655f59a3ad069814cfa24c2b55e5a959588b03dc4585a65` |
 | 한국어 결과 .z64 | `935fbdb3be00173817d43f79a85592cc46e74c6d6014b1d99cda47933449c2d4` |
-| Windows EXE | `4af422cd14c662e2543bb974f971d0e79cbad743487ea63ad6856a9b4d000a93` |
-| BPS | `5534424737d1787296b8e7e377a1681147890c89b2a8c49f7de7932752a48054` |
-| Windows ZIP | `5039731516a54e0f8ebd5151216970a3cfe1ed64113e07780fb0558c59c24cd9` |
+| Windows EXE | `36b7d168950835b7c4fa1467160f283336d919647b5bac5e3909b5ede883030a` |
+| BPS | `8b981bc2821d8b72c59f1af1eafff9c62c310bf26999940086071b1f2088a10d` |
+| Windows ZIP | `ecc942a420c97108e186869472f5ea1ac6e76bf28f9a11758fb124c79da657ce` |
 
 473개 자산·47개 지역 데이터·103개 텍스트 풀, N64 체크섬, 영어·음성 보존, 전체 줄 폭과 페이지 높이를 검사했습니다. 최종 ROM에서 **31개 번역 지역·네 캐릭터·상점·저장/새 부팅 불러오기·메뉴·텍스트 출력 등 44개 실행 검사**를 통과했습니다. EXE의 세 바이트 순서 적용, 오류 차단, GUI, 편집기의 동일 결과 재빌드도 검사했습니다.
 
